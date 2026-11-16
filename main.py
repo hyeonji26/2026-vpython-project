@@ -1,3 +1,4 @@
+u = box(pos = vec(-1,0,0), texture = "https://i.postimg.cc/d0d4Jq5d/geulim2.png")
 box(pos = vec(-1,0,0), texture = "https://i.postimg.cc/d0d4Jq5d/geulim2.png")
 ellipsoid(pos = vec(-1, 1, 0), size = vec(3, 1, 0.5))
 label(text =  "우나!푸루푸루 야하 (나랑 같이 립스틱을 만들자!)", pos = vec(-0.7, 0.75, 1))
@@ -7,3 +8,11 @@ box(pos = vec(0.2, -0.3, 2), size = vec(0.1, 0.1, 0.1),)
 box(pos = vec(0.6, -0.3, 2), size = vec(0.1, 0.1, 0.1),)
 box(pos = vec(0.5, 0.15, 2), size = vec(0.1, 0.27, 0.1))
 sphere(pos = vec(0.5, 0.28, 2), size = vec(0.07, 0.27, 0.1))
+while True : 
+    rate(100)
+     k = keysdown()
+    if 'd' in k : 
+        u.pos.x = u.pos.x + 0.1
+    if 'a' in k :
+        u.pos.x = u.pos.x - 0.1
+    
