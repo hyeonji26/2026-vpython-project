@@ -1,6 +1,8 @@
 box(pos = vec(-1,0,0), texture = "https://i.postimg.cc/d0d4Jq5d/geulim2.png")
 ellipsoid(pos = vec(-1, 1, 0), size = vec(3, 1, 0.5))
-colors = [color.red, color.orange, color.yellow, color.green]
-for i in range(4) :
-    box(pos = vec(i/2-0.7, -0.3, 2), size = vec(0.1, 0.1, 0.1), color = colors[i])
+label(text =  "우나! 나랑 같이 립스틱을 만들자!", pos = vec(-0.7, 0.75, 1))
+box(pos = vec(-0.2, -0.3, 2), size = vec(0.1, 0.1, 0.1), color = vec(1,0,0,))
+box(pos = vec(-0.6, -0.3, 2), size = vec(0.1, 0.1, 0.1),)
+box(pos = vec(0.2, -0.3, 2), size = vec(0.1, 0.1, 0.1),)
+box(pos = vec(0.6, -0.3, 2), size = vec(0.1, 0.1, 0.1),)
 box(pos = vec(0.5, 0.15, 2), size = vec(0.1, 0.27, 0.1))
